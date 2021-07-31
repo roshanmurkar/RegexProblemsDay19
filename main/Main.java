@@ -9,5 +9,9 @@ public class Main {
 		EmailValidation emailValidation = new EmailValidation();
 		emailValidation.validateMail();
 
+
+		EmailValidationPartTwo emailValidationPartTwo=new EmailValidationPartTwo();
+		emailValidationPartTwo.validateMail();
+
 	}
 }
