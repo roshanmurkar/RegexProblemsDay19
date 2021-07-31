@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class Main {
 	public static void main(String[] args) {
-		// creating object for uc1
+		
 		EmailValidation emailValidation = new EmailValidation();
 		emailValidation.validateMail();
 
@@ -15,5 +15,8 @@ public class Main {
 
 		EmailValidationPartThree emailValidationPartThree=new EmailValidationPartThree();
 		emailValidationPartThree.validateMail();
+		
+		EmailValidationPartFour emailValidationPartFour=new EmailValidationPartFour();
+		emailValidationPartFour.validateMail();
 	}
 }
