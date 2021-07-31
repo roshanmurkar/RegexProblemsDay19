@@ -18,5 +18,8 @@ public class Main {
 		
 		EmailValidationPartFour emailValidationPartFour=new EmailValidationPartFour();
 		emailValidationPartFour.validateMail();
+		
+		EmailValidationPartFive emailValidationPartFive=new EmailValidationPartFive();
+		emailValidationPartFive.validateMail();
 	}
 }
